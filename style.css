@@ -10,3 +10,21 @@ h2{
 h1{
    font-weight: 600;
 }
+table tr td{
+    text-align: center;
+   border: 3px solid black;
+
+}
+td{
+    font-size: 25px;
+    font-weight: 100
+}
+th{
+    font-size: 30px;
+    text-align: center;
+}
+table{
+margin-left: auto;
+margin-right: auto;
+
+}
