@@ -37,3 +37,14 @@ th td{
 main{
 text-align:center;
 }
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+  
+}
+.item{
+
+}
+hr{
+    style
+}
