@@ -22,9 +22,18 @@ td{
 th{
     font-size: 30px;
     text-align: center;
+
 }
 table{
 margin-left: auto;
 margin-right: auto;
+border-spacing:1px;
 
+}
+th td{
+    padding: 10px;
+    
+}
+main{
+text-align:center;
 }
