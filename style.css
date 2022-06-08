@@ -27,44 +27,41 @@ th{
 table{
 margin-left: auto;
 margin-right: auto;
+border-color: black;
 
 
 }
 th td{
     padding: 15px;
-    
+    border-color: black;
 }
 main{
-    margin: 0;
-    padding: 5px;
-    width: 1000px;
-    margin-left: 25%;
     
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+    text-align:left;
+    align-content: center;
   }
 .container{
-    background-color: rgb(168, 168, 168);
+    
     display: grid;
-    border: solid rgb(214, 214, 214) 2px;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-
-    border-radius: 5px;
-   column-gap: 10px;
-    transition: .3s;
-    justify-content: center;
-    align-content: center;
+    border-radius: 50px;
   
 }
 .item{
     display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: repeat(1,30px);
-    grid-auto-flow: column;
-    gap: 5px;
-    justify-content: center;
-    font-size: 500px;
+    grid-template-columns: 300px; 
+    grid-auto-flow: column; 
+    margin-left: 150px;
+    margin-right: 200px;
+    font-size: 50px;
+    align-content: center;
 
 }
 li{
     text-align: left;
+    font-size:25px;
 }
