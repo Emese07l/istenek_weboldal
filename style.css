@@ -2,10 +2,16 @@ header{
     text-align: center;
     font-size:50px;
     font-weight: bolder;
+    border-radius: 20px;
+    background-color: beige;
+    margin-left: 25%;
+    margin-right: 21%;
+   
 
 }
 h2{
     font-weight: 50;
+    line-height: 24px;
 }
 h1{
    font-weight: 600;
@@ -27,8 +33,7 @@ th{
 table{
 margin-left: auto;
 margin-right: auto;
-border-color: black;
-
+box-shadow:5px 10px rgb(151, 145, 145);
 
 }
 th td{
@@ -36,6 +41,12 @@ th td{
     border-color: black;
 }
 main{
+    margin: 0;
+    padding: 5px;
+    width: 1000px;
+    margin-left: 25%;
+    background-color: beige;
+    border-radius: 20px;
     
     padding: 5px;
     margin-left: 200px;
@@ -46,9 +57,18 @@ main{
     align-content: center;
   }
 .container{
-    
+    background-color: beige;
     display: grid;
-    border-radius: 50px;
+    
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+
+    border-radius: 5px;
+   column-gap: 10px;
+    transition: .3s;
+    justify-content: center;
+    align-content: center;
+    
   
 }
 .item{
@@ -63,5 +83,27 @@ main{
 }
 li{
     text-align: left;
-    font-size:25px;
+    font-size: 25px;
+}
+body{
+ background-image: linear-gradient(to bottom left, rgb(255, 255, 173), rgb(194, 134, 4));
+ 
+
+
+}
+hr{
+    margin-left: 25%;
+}
+.div{ display:grid;
+    grid-template-columns: 33% 34% 33%;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 25%;
+
+}
+.d{
+   text-align: center;
+   font-size: 25px;
+
+  
 }
