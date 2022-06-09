@@ -24,11 +24,23 @@ table tr td{
 td{
     font-size: 25px;
     font-weight: 100
+   
+}
+tr>td:hover{
+    font-size: 26px;
+    color: rgb(209, 178, 22);
 }
 th{
     font-size: 30px;
     text-align: center;
+  
 
+
+
+}
+th:hover{
+    
+    font-size: 34px;
 }
 table{
 margin-left: auto;
@@ -36,6 +48,7 @@ margin-right: auto;
 box-shadow:5px 10px rgb(151, 145, 145);
 
 }
+
 th td{
     padding: 15px;
     border-color: black;
@@ -108,10 +121,19 @@ hr{
 
   
 }
-img{
+.k{
     border-radius: 15%;
     width: 120px;
     float: right;
     border: 1px double black;
-  margin: 0px 0px 15px 20px;
+ 
 }
+.h{
+   width:500px;
+   transition: width 2s, height 4s;
+
+}
+.h:hover{
+    width: 600px;
+}
+    
