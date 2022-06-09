@@ -1,2 +1,2 @@
-document.querySelector("h1").style.backgroundColor="red"
+document.querySelector("th").style.fontSize="50px"
 
