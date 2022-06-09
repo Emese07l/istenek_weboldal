@@ -22,6 +22,8 @@ table tr td{
 td{
     font-size: 25px;
     font-weight: 100
+    
+    
    
 }
 tr>td:hover{
@@ -31,6 +33,7 @@ tr>td:hover{
 th{
     font-size: 30px;
     text-align: center;
+    
   
 
 
@@ -115,8 +118,12 @@ hr{
 .d{
    text-align: center;
    font-size: 25px;
+   transition: font-size 1s;
 
   
+}
+.d:hover{
+    font-size: 26px;
 }
 .k{
     border-radius: 15%;
@@ -133,4 +140,22 @@ hr{
 .h:hover{
     width: 600px;
 }
-    
+.p {
+    box-sizing: border-box;
+    padding: 16px;
+    width: 100%;
+    background-color: rgb(209, 162, 5);
+    color: #fff;
+  }
+  .closebtn {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .closebtn:hover {
+    color: #000;
+  }
+    .demo{
+        float:center;
+    }
