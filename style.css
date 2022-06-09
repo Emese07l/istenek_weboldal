@@ -11,7 +11,7 @@ header{
 }
 h2{
     font-weight: 50;
-    line-height: 24px;
+    line-height: 38px;
 }
 h1{
    font-weight: 600;
@@ -42,7 +42,7 @@ th td{
 }
 main{
     margin: 0;
-    padding: 5px;
+    
     width: 1000px;
     margin-left: 25%;
     background-color: beige;
@@ -52,7 +52,7 @@ main{
     margin-left: 200px;
     margin-right: 200px;
 
-
+border: 5px double black;
     text-align:left;
     align-content: center;
   }
@@ -88,6 +88,7 @@ li{
 body{
  background-image: linear-gradient(to bottom left, rgb(255, 255, 173), rgb(194, 134, 4));
  
+ 
 
 
 }
@@ -106,4 +107,11 @@ hr{
    font-size: 25px;
 
   
+}
+img{
+    border-radius: 15%;
+    width: 120px;
+    float: right;
+    border: 1px double black;
+  margin: 0px 0px 15px 20px;
 }
