@@ -4,10 +4,8 @@ header{
     font-weight: bolder;
     border-radius: 20px;
     background-color: beige;
-    margin-left: 25%;
-    margin-right: 21%;
-   
-
+   margin-left: 250px;
+margin-right: 250px;
 }
 h2{
     font-weight: 50;
@@ -54,26 +52,25 @@ th td{
     border-color: black;
 }
 main{
-    margin: 0;
     
     width: 1000px;
-    margin-left: 25%;
     background-color: beige;
     border-radius: 20px;
     
     padding: 5px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
 
 border: 5px double black;
-    text-align:left;
-    align-content: center;
+   text-align: left;
+align-content: center;
+    
   }
 .container{
     background-color: beige;
     display: grid;
     
-    font-family: Helvetica, sans-serif;
+    
     text-align: center;
 
     border-radius: 5px;
@@ -101,12 +98,12 @@ li{
 body{
  background-image: linear-gradient(to bottom left, rgb(255, 255, 173), rgb(194, 134, 4));
  
- 
+ text-align: center;
 
 
 }
 hr{
-    margin-left: 25%;
+   
 }
 .div{ display:grid;
     grid-template-columns: 33% 34% 33%;
