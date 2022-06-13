@@ -61,12 +61,12 @@ main{
     border-radius: 20px;
     
     padding: 5px;
-    margin-left: 250px;
-    margin-right: 250px;
+    max-width: 1000px;
+    margin: auto;
 
 border: 5px double black;
    text-align: left;
-align-content: center;
+
     
   }
 .container{
